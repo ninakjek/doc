@@ -14,7 +14,7 @@ There is two ways to get running with Redis, one for Naisd, and one for Naiserat
 
 ### Naisd
 
-In the [NAIS manifest](in-depth/nais-manifest.md) you can add the following configuration to enable Redis:
+In the [NAIS manifest](https://github.com/nais/doc/tree/358138e55be033b70203858e438d2f630126ec5c/addons/in-depth/nais-manifest.md) you can add the following configuration to enable Redis:
 
 Minimal version:
 
@@ -139,3 +139,4 @@ redis:
   host: ${REDIS_HOST}
   port: 6379
 ```
+
